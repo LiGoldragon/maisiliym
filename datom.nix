@@ -197,6 +197,42 @@
       };
     };
 
+    klio = {
+      spici = "edj";
+      saiz = 3;
+      trost = 2;
+      mycin = {
+        spici = "metyl";
+        ark = "x86-64";
+        modyl = "ThinkPadX250";
+        korz = 2;
+      };
+      io = {
+        kibord = "colemak";
+        butlodyr = "uefi";
+        disks = {
+          "/" = {
+            device = "/dev/disk/by-uuid/ac609ecf-be8e-49ee-a892-2552e74d97e3";
+            fsType = "ext4";
+          };
+          "/boot" = {
+            device = "/dev/disk/by-uuid/BBE9-75C7";
+            fsType = "vfat";
+          };
+        };
+        swapDevices = [{ device = "/dev/disk/by-uuid/f86fc799-cbc2-473b-94ce-abfc1aa040f2"; }];
+      };
+      priKriomz = {
+        eseseitc = "AAAAC3NzaC1lZDI1NTE5AAAAID7E6ca/f2Bkz5Z9ZX4ASHXPLF7TYI/Z4C0/Is/Ljpyu";
+        niksPriKriom = "7N3PTqwWdA0p4XNjupKhLhVD5D0cEFcY/mUk3FRo5lI=";
+        yggdrasil = {
+          priKriom = "cef05ea020845caf73f2b3b3c15d27e3d55dd35b5155692a5464b7920b6b03b9";
+          address = "200:621f:42bf:bef7:46a1:181a:9898:7d45";
+          subnet = "300:621f:42bf:bef7";
+        };
+      };
+    };
+
     eibetik = {
       spici = "sentyr";
       saiz = 1;
