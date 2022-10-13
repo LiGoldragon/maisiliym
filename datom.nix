@@ -251,7 +251,7 @@
       spici = "Onlimityd";
       saiz = 3;
       kibord = "colemak";
-      githubId = "maisiliym";
+      githubId = "LiGoldragon";
       priKriomz = {
         dante = {
           eseseitc = "AAAAC3NzaC1lZDI1NTE5AAAAIK769R2iKyr5rgBvR9OFeSN2kdo8h+LtXVUjzdFLf4vl";
