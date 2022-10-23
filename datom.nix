@@ -21,6 +21,44 @@
       };
     };
 
+    hades = {
+      spici = "sentyr";
+      saiz = 2;
+      trost = 3;
+      mycin = {
+        spici = "metyl";
+        ark = "x86-64";
+        modyl = "Thinkpadx250";
+        korz = 2;
+      };
+      neksysIp = "5::6/128";
+      linkLocalIPs = [ ];
+      io = {
+        kibord = "colemak";
+        butlodyr = "uefi";
+        disks = {
+          "/" = {
+            device = "/dev/disk/by-uuid/85f4a2b7-e168-4252-8805-989a4cf8a81c";
+            fsType = "ext4";
+          };
+          "/boot" = {
+            device = "/dev/disk/by-uuid/AEF9-C68A";
+            fsType = "vfat";
+          };
+        };
+        swapDevices = [{ device = "/dev/disk/by-uuid/17a56c75-f8fc-428c-b8a4-df3d9449fcf7"; }];
+      };
+      priKriomz = {
+        niksPriKriom = "0J1372hbJdemn5rVicpVSOVjB2cm8uyI3ypkFoRihRM=";
+        eseseitc = "AAAAC3NzaC1lZDI1NTE5AAAAIOQascm6i8E72qmmcaw114fSStgy3syEnNp3hv2qJvbr";
+        yggdrasil = {
+          priKriom = "e48fd5a04f1c2fd1f73707dd4dcc1e7e1513c5575b4eb585bffd38b347a8dbf1";
+          address = "200:36e0:54bf:61c7:a05c:1191:f045:6467";
+          subnet = "300:36e0:54bf:61c7";
+        };
+      };
+    };
+
     tiger = {
       spici = "edj";
       saiz = 3;
@@ -208,6 +246,7 @@
         korz = 2;
       };
       io = {
+        modem = true;
         kibord = "colemak";
         butlodyr = "uefi";
         disks = {
