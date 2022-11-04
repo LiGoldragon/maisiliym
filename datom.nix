@@ -246,7 +246,6 @@
         korz = 2;
       };
       io = {
-        modem = true;
         kibord = "colemak";
         butlodyr = "uefi";
         disks = {
@@ -312,7 +311,7 @@
       saiz = 3;
       kibord = "colemak";
       priKriomz = {
-        juno = {
+        klio = {
           eseseitc = "AAAAC3NzaC1lZDI1NTE5AAAAIKTc1b3BgAHoY1R7gY8YsaPI7AeTZzDyWJPhlyEkjv/e";
           keygrip = "2B02ECA0AE0D9A027C013234DEB7888B37E70DBF";
         };
