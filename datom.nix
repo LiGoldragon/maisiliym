@@ -22,7 +22,7 @@
     };
 
     hades = {
-      spici = "sentyr";
+      spici = "router";
       saiz = 2;
       trost = 3;
       mycin = {
@@ -157,7 +157,7 @@
     };
 
     dante = {
-      spici = "sentyr";
+      spici = "router";
       saiz = 2;
       trost = 3;
       mycin = {
