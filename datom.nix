@@ -60,7 +60,7 @@
     };
 
     tiger = {
-      spici = "edj";
+      spici = "edjTesting";
       saiz = 3;
       trost = 3;
       mycin = {
