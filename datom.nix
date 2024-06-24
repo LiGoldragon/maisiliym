@@ -98,7 +98,7 @@
     };
 
     xerxes = {
-      spici = "router";
+      spici = "haibrid";
       saiz = 3;
       trost = 3;
       mycin = {
