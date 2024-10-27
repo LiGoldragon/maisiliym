@@ -300,8 +300,8 @@
           keygrip = "1785B4D2813D7ED1913A05FA74FF42B9153EEFF0";
         };
         xerxes = {
-          eseseitc = "AAAAC3NzaC1lZDI1NTE5AAAAIEygb1Ft1hIB+ExPGLq08im9rFYvOeYXX+NetgqjI3Db";
-          keygrip = "63A149ECC539BAF2B001C57E9A55A566BCD48446";
+          eseseitc = "AAAAC3NzaC1lZDI1NTE5AAAAICiHPTciuu3Yn8my604bWPo+T/9cIIMOqbrzPjqAt88/";
+          keygrip = "DE688BEA4BAC3595A263EC1B76373B7C275899D9";
         };
       };
     };
