@@ -87,7 +87,7 @@
         swapDevices = [ { device = "/dev/disk/by-uuid/4dcf2ad2-4677-483f-9900-046f0f53053a"; } ];
       };
       preCriomes = {
-        niksPreCriome = "P2pDdZrmbLO8EBUuwLvt+FJlqh4ZRVczgGV/Tmr1Bis=";
+        niksPreCriome = "/1SYuET5/IIscPvZcgZyrfsMcRiCFcmV051+0U5YXVM=";
         eseseitc = "AAAAC3NzaC1lZDI1NTE5AAAAIKeoCIfvbUDue17FBglmKF1N2cKH9CWsS5EcXOyBxq5T";
         yggdrasil = {
           preCriome = "38ed4c7c9ffd2e79361af3202f406810069fa37ff991e6d1d434a529ba75dfb3";
