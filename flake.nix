@@ -1,6 +1,7 @@
 {
   description = "Maisiliym metastri";
 
-  outputs = { self }:
-    { NeksysProposal = import ./datom.nix; };
+  outputs = _: {
+    NeksysProposal = import ./datom.nix;
+  };
 }

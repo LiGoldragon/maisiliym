@@ -46,7 +46,7 @@
             fsType = "vfat";
           };
         };
-        swapDevices = [{ device = "/dev/disk/by-uuid/17a56c75-f8fc-428c-b8a4-df3d9449fcf7"; }];
+        swapDevices = [ { device = "/dev/disk/by-uuid/17a56c75-f8fc-428c-b8a4-df3d9449fcf7"; } ];
       };
       preCriomes = {
         niksPreCriome = "0J1372hbJdemn5rVicpVSOVjB2cm8uyI3ypkFoRihRM=";
@@ -84,7 +84,7 @@
             fsType = "vfat";
           };
         };
-        swapDevices = [{ device = "/dev/disk/by-uuid/4dcf2ad2-4677-483f-9900-046f0f53053a"; }];
+        swapDevices = [ { device = "/dev/disk/by-uuid/4dcf2ad2-4677-483f-9900-046f0f53053a"; } ];
       };
       preCriomes = {
         niksPreCriome = "P2pDdZrmbLO8EBUuwLvt+FJlqh4ZRVczgGV/Tmr1Bis=";
@@ -109,7 +109,12 @@
       };
 
       neksysIp = "5::1/128";
-      linkLocalIPs = [{ spici = "ethernet"; suffix = "aec6:ecad:34e0:b41f"; }];
+      linkLocalIPs = [
+        {
+          spici = "ethernet";
+          suffix = "aec6:ecad:34e0:b41f";
+        }
+      ];
       wireguardPreCriome = "oOeqiGZC+oaIL0rKirFyiJ4N6qDQWICZ2wRelLMOR0o=";
 
       io = {
@@ -167,7 +172,12 @@
         korz = 2;
       };
       neksysIp = "5::2/128";
-      linkLocalIPs = [{ spici = "ethernet"; suffix = "3e97:eff:fea3:30d2"; }];
+      linkLocalIPs = [
+        {
+          spici = "ethernet";
+          suffix = "3e97:eff:fea3:30d2";
+        }
+      ];
       wireguardPreCriome = "3HeLSQr+lbJp4w9oUILEVWrBpYYCoQzxkARWDCBf5j8=";
       io = {
         kibord = "colemak";
@@ -258,7 +268,7 @@
             fsType = "vfat";
           };
         };
-        swapDevices = [{ device = "/dev/disk/by-uuid/f86fc799-cbc2-473b-94ce-abfc1aa040f2"; }];
+        swapDevices = [ { device = "/dev/disk/by-uuid/f86fc799-cbc2-473b-94ce-abfc1aa040f2"; } ];
       };
       preCriomes = {
         eseseitc = "AAAAC3NzaC1lZDI1NTE5AAAAID7E6ca/f2Bkz5Z9ZX4ASHXPLF7TYI/Z4C0/Is/Ljpyu";
