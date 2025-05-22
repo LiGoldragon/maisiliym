@@ -325,6 +325,10 @@
           eseseitc = "AAAAC3NzaC1lZDI1NTE5AAAAIKTc1b3BgAHoY1R7gY8YsaPI7AeTZzDyWJPhlyEkjv/e";
           keygrip = "2B02ECA0AE0D9A027C013234DEB7888B37E70DBF";
         };
+        tiger = {
+          eseseitc = "AAAAC3NzaC1lZDI1NTE5AAAAIGhaPt/4ytqbJ9oPk5DE5WEK23N36pZRbvaEuqr/MtfF";
+          keygrip = "943502A0A9D25EF34C16E2ED2A120C26279C4248";
+        };
       };
     };
 
