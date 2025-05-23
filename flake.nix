@@ -1,7 +1,7 @@
 {
-  description = "Maisiliym metastri";
+  description = "Maisiliym Cluster";
 
   outputs = _: {
-    NeksysProposal = import ./datom.nix;
+    NodeProposal = import ./datom.nix;
   };
 }
