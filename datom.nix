@@ -176,7 +176,20 @@
       io = {
         keyboard = "colemak";
         bootloader = "uefi";
-        disks = { };
+        disks = {
+          "/" = {
+            device = "/dev/disk/by-uuid/4bd0cbe7-082d-4f06-9283-978b834a85db";
+            fsType = "ext4";
+          };
+          "/boot" = {
+            device = "/dev/disk/by-uuid/1491-B84C";
+            fsType = "vfat";
+            options = [
+              "fmask=0022"
+              "dmask=0022"
+            ];
+          };
+        };
         swapDevices = [ ];
       };
       preCriomes = { };
