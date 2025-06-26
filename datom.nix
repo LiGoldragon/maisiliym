@@ -168,7 +168,7 @@
       machine = {
         species = "metal";
         arch = "x86-64";
-        model = "ThinkPadT14";
+        model = "ThinkPadT14Intel";
         cores = 4;
       };
       nodeIp = "6::2/128";
