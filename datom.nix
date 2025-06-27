@@ -291,9 +291,9 @@
       keyboard = "colemak";
       githubId = "LiGoldragon";
       preCriomes = {
-        dante = {
-          ssh = "AAAAC3NzaC1lZDI1NTE5AAAAIK769R2iKyr5rgBvR9OFeSN2kdo8h+LtXVUjzdFLf4vl";
-          keygrip = "AD305831DD33E62F9AD587718D4E5E6999CD84EA";
+        zeus = {
+          ssh = "AAAAC3NzaC1lZDI1NTE5AAAAIII6G7yMqNXJSuHDlH8R2JRSLSM6sZZLULaK8yDzquwO";
+          keygrip = "CEEA0DD02CA901E5F71A8CB3EB5C5EB902AA210E";
         };
         tiger = {
           ssh = "AAAAC3NzaC1lZDI1NTE5AAAAILTm644m4foET1j+DGHl0gfEyGD9A4YltsNOidDUn3BG";
