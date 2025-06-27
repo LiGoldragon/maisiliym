@@ -21,44 +21,6 @@
       };
     };
 
-    hades = {
-      species = "router";
-      size = 2;
-      trust = 3;
-      machine = {
-        species = "metal";
-        arch = "x86-64";
-        model = "Thinkpadx250";
-        cores = 2;
-      };
-      nodeIp = "5::6/128";
-      linkLocalIps = [ ];
-      io = {
-        keyboard = "colemak";
-        bootloader = "uefi";
-        disks = {
-          "/" = {
-            device = "/dev/disk/by-uuid/85f4a2b7-e168-4252-8805-989a4cf8a81c";
-            fsType = "ext4";
-          };
-          "/boot" = {
-            device = "/dev/disk/by-uuid/AEF9-C68A";
-            fsType = "vfat";
-          };
-        };
-        swapDevices = [ { device = "/dev/disk/by-uuid/17a56c75-f8fc-428c-b8a4-df3d9449fcf7"; } ];
-      };
-      preCriomes = {
-        nixPreCriome = "0J1372hbJdemn5rVicpVSOVjB2cm8uyI3ypkFoRihRM=";
-        ssh = "AAAAC3NzaC1lZDI1NTE5AAAAIOQascm6i8E72qmmcaw114fSStgy3syEnNp3hv2qJvbr";
-        yggdrasil = {
-          preCriome = "e48fd5a04f1c2fd1f73707dd4dcc1e7e1513c5575b4eb585bffd38b347a8dbf1";
-          address = "200:36e0:54bf:61c7:a05c:1191:f045:6467";
-          subnet = "300:36e0:54bf:61c7";
-        };
-      };
-    };
-
     tiger = {
       species = "edgeTesting";
       size = 3;
@@ -107,7 +69,6 @@
         model = "ThinkPadX240";
         cores = 2;
       };
-
       nodeIp = "5::1/128";
       linkLocalIps = [
         {
@@ -116,7 +77,6 @@
         }
       ];
       wireguardPreCriome = "oOeqiGZC+oaIL0rKirFyiJ4N6qDQWICZ2wRelLMOR0o=";
-
       io = {
         keyboard = "colemak";
         bootloader = "uefi";
@@ -171,7 +131,7 @@
         model = "ThinkPadT14Intel";
         cores = 4;
       };
-      nodeIp = "6::2/128";
+      nodeIp = "5::6/128";
       linkLocalIps = [ ];
       io = {
         keyboard = "colemak";
@@ -195,46 +155,6 @@
       preCriomes = { };
     };
 
-    juno = {
-      species = "hybrid";
-      size = 3;
-      trust = 3;
-      machine = {
-        species = "metal";
-        arch = "x86-64";
-        model = "ThinkPadX230";
-        cores = 2;
-      };
-      io = {
-        keyboard = "colemak";
-        bootloader = "uefi";
-        disks = {
-          "/" = {
-            device = "/dev/disk/by-uuid/63ff7f56-4f1f-4676-9b69-1b729bfcb555";
-            fsType = "xfs";
-          };
-          "/home" = {
-            device = "/dev/disk/by-uuid/fdfc8c28-7ea3-4cbc-962b-e156114e765d";
-            fsType = "xfs";
-          };
-          "/boot" = {
-            device = "/dev/disk/by-uuid/293E-399F";
-            fsType = "vfat";
-          };
-        };
-        swapDevices = [ ];
-      };
-      preCriomes = {
-        ssh = "AAAAC3NzaC1lZDI1NTE5AAAAICWYATms2fd9JVJNrMetB8uNNP/ZKNG9/QhJBkyJ/6VX";
-        yggdrasil = {
-          preCriome = "d7cbcd3122a0ba4d0ca1f662ecbab4bc376343ece193749c3f94a6e1b24f42db";
-          address = "200:5068:659d:babe:8b65:e6bc:133a:268a";
-          subnet = "300:5068:659d:babe";
-        };
-        nixPreCriome = "Mx+wLIfTWjYm2b+gI6X5vxY0eGtScNB1+51DxIZbeus=";
-      };
-    };
-
     klio = {
       species = "edge";
       size = 3;
@@ -245,6 +165,7 @@
         model = "ThinkPadX250";
         cores = 2;
       };
+      nodeIp = "5::2/128";
       io = {
         keyboard = "colemak";
         bootloader = "uefi";
@@ -346,7 +267,6 @@
       xerxes = 3;
       zeus = 3;
       eibetik = 2;
-      juno = 2;
       tiger = 3;
     };
     users = {
