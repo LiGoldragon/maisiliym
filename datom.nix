@@ -155,6 +155,27 @@
       preCriomes = { };
     };
 
+    ouranos = {
+      species = "edgeTesting";
+      size = 1;
+      trust = 3;
+      machine = {
+        species = "metal";
+        arch = "x86-64";
+        model = "ThinkPadT14Gen5Intel";
+        cores = 12;
+      };
+      nodeIp = "5::3/128";
+      linkLocalIps = [ ];
+      io = {
+        keyboard = "colemak";
+        bootloader = "uefi";
+        disks = { };
+        swapDevices = [ ];
+      };
+      preCriomes = { };
+    };
+
     klio = {
       species = "edge";
       size = 3;
@@ -266,6 +287,7 @@
       balboa = 3;
       xerxes = 3;
       zeus = 3;
+      ouranos = 3;
       eibetik = 2;
       tiger = 3;
     };
