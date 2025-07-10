@@ -122,7 +122,7 @@
     };
 
     zeus = {
-      species = "edgeTesting";
+      species = "edge";
       size = 3;
       trust = 3;
       machine = {
