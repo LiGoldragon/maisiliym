@@ -157,7 +157,7 @@
 
     ouranos = {
       species = "edgeTesting";
-      size = 1;
+      size = 3;
       trust = 3;
       machine = {
         species = "metal";
