@@ -254,6 +254,10 @@
           ssh = "AAAAC3NzaC1lZDI1NTE5AAAAILTm644m4foET1j+DGHl0gfEyGD9A4YltsNOidDUn3BG";
           keygrip = "1785B4D2813D7ED1913A05FA74FF42B9153EEFF0";
         };
+        ouranos = {
+          ssh = "AAAAC3NzaC1lZDI1NTE5AAAAIHEtxRF2wjSD1DzlYCW9BivOsz9X0P95msrbXvGATy/p";
+          keygrip = "7FAFE190D2C749B222B249E54E5A7AD71C1BDDBD";
+        };
         xerxes = {
           ssh = "AAAAC3NzaC1lZDI1NTE5AAAAICiHPTciuu3Yn8my604bWPo+T/9cIIMOqbrzPjqAt88/";
           keygrip = "DE688BEA4BAC3595A263EC1B76373B7C275899D9";
