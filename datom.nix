@@ -271,8 +271,8 @@
       keyboard = "colemak";
       preCriomes = {
         klio = {
-          ssh = "AAAAC3NzaC1lZDI1NTE5AAAAIKTc1b3BgAHoY1R7gY8YsaPI7AeTZzDyWJPhlyEkjv/e";
-          keygrip = "2B02ECA0AE0D9A027C013234DEB7888B37E70DBF";
+          ssh = "AAAAC3NzaC1lZDI1NTE5AAAAIK4NC1v3l3Q55Bue6aorvvAB/WoTEdeJXJfwZbxKAwbu";
+          keygrip = "45D28CE63EFE23CB5FB9C093786C73450ECD3384";
         };
         tiger = {
           ssh = "AAAAC3NzaC1lZDI1NTE5AAAAIGhaPt/4ytqbJ9oPk5DE5WEK23N36pZRbvaEuqr/MtfF";
