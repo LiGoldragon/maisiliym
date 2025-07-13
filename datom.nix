@@ -278,6 +278,10 @@
           ssh = "AAAAC3NzaC1lZDI1NTE5AAAAIGhaPt/4ytqbJ9oPk5DE5WEK23N36pZRbvaEuqr/MtfF";
           keygrip = "943502A0A9D25EF34C16E2ED2A120C26279C4248";
         };
+        zeus = {
+          ssh = "AAAAC3NzaC1lZDI1NTE5AAAAIMioAruS5HbgT8hUOVAgKKUP0P6s4gXliVb+AcrtWr4V";
+          keygrip = "962157586FC998370969F675812FE1EBBD9CF8DA";
+        };
       };
     };
 
