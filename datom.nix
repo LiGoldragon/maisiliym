@@ -199,6 +199,36 @@
         model = "GMKtec EVO-X2";
         cores = 8;
       };
+      io = {
+        bootloader = "uefi";
+        disks = {
+          "/" = {
+            device = "/dev/disk/by-uuid/d3ad7f53-2470-4744-9ddf-b183c7c22f31";
+            fsType = "btrfs";
+            options = [ "subvol=root" ];
+          };
+          "/home" = {
+            device = "/dev/disk/by-uuid/d3ad7f53-2470-4744-9ddf-b183c7c22f31";
+            fsType = "btrfs";
+            options = [ "subvol=home" ];
+          };
+          "/nix" = {
+            device = "/dev/disk/by-uuid/d3ad7f53-2470-4744-9ddf-b183c7c22f31";
+            fsType = "btrfs";
+            options = [ "subvol=nix" ];
+          };
+          "/var" = {
+            device = "/dev/disk/by-uuid/d3ad7f53-2470-4744-9ddf-b183c7c22f31";
+            fsType = "btrfs";
+            options = [ "subvol=var" ];
+          };
+          "/boot" = {
+            device = "/dev/disk/by-uuid/A252-A02B";
+            fsType = "vfat";
+          };
+        };
+        swapDevices = [ ];
+      };
     };
 
     klio = {
