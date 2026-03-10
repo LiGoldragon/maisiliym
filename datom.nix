@@ -189,6 +189,18 @@
       preCriomes = { };
     };
 
+    prometheus = {
+      species = "edge";
+      size = 3;
+      trust = 3;
+      machine = {
+        species = "metal";
+        arch = "x86-64";
+        model = "GMKtec EVO-X2";
+        cores = 8;
+      };
+    };
+
     klio = {
       species = "edge";
       size = 3;
@@ -309,6 +321,7 @@
       xerxes = 3;
       zeus = 3;
       ouranos = 3;
+      prometheus = 3;
       eibetik = 2;
       tiger = 3;
     };
