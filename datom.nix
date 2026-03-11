@@ -190,7 +190,7 @@
     };
 
     prometheus = {
-      species = "center";
+      species = "largeAI";
       size = 3;
       trust = 3;
       machine = {
