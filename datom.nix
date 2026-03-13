@@ -190,9 +190,9 @@
         ssh = "AAAAC3NzaC1lZDI1NTE5AAAAIHEtxRF2wjSD1DzlYCW9BivOsz9X0P95msrbXvGATy/p";
         nixPreCriome = "AAqjPi1kOaOWyZrwupTpHNL/7SYjYmaeDu1J+hNtVFA=";
         yggdrasil = {
-          preCriome = "32e87dbbdc9d958d1ab536a2a56ac34f854dfc2c9f48fa0f3ff57d41ec0978a7";
-          address = "202:68bc:1221:1b13:5397:2a56:4aea:d4a9";
-          subnet = "302:68bc:1221:1b13";
+          preCriome = "6487aabfe0d4f491a2986f4b41388ebcbd3c69a654f32feb9b1fba351bbd590a";
+          address = "201:6de1:5500:7cac:2db9:759e:42d2:fb1d";
+          subnet = "301:6de1:5500:7cac";
         };
       };
     };

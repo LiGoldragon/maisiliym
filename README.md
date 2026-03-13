@@ -2,6 +2,10 @@
 
 This repository exports a `NodeProposal` via `flake.nix` so CriomOS agents can coordinate hardware resources for the Maisiliym cluster. The configuration lives in `datom.nix`, and every node here is meant to align with the existing `maisiliym` user and trust model.
 
+## Operator Guidance
+
+Node and network identity statements are authoritative in `docs/GUIDELINES.md`; this README mirrors that guidance for convenience. Start node/network updates in `datom.nix` within `NodeProposal.nodes.*` so Maisiliym retains node/network truth before any mirrors or deployments. Maisiliym owns that truth while CriomOS consumes, builds, and deploys from it.
+
 ## Prometheus (EVO-X2 always-on center server install + agent bootstrap)
 
 - Node name: `prometheus` (added to `NodeProposal.nodes` in `datom.nix`).
