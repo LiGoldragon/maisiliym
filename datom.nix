@@ -186,7 +186,15 @@
         };
         swapDevices = [ ];
       };
-      preCriomes = { };
+      preCriomes = {
+        ssh = "AAAAC3NzaC1lZDI1NTE5AAAAIHEtxRF2wjSD1DzlYCW9BivOsz9X0P95msrbXvGATy/p";
+        nixPreCriome = "AAqjPi1kOaOWyZrwupTpHNL/7SYjYmaeDu1J+hNtVFA=";
+        yggdrasil = {
+          preCriome = "32e87dbbdc9d958d1ab536a2a56ac34f854dfc2c9f48fa0f3ff57d41ec0978a7";
+          address = "202:68bc:1221:1b13:5397:2a56:4aea:d4a9";
+          subnet = "302:68bc:1221:1b13";
+        };
+      };
     };
 
     prometheus = {
