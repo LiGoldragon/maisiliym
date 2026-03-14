@@ -161,6 +161,7 @@
       species = "edgeTesting";
       size = 3;
       trust = 3;
+      nordvpn = true;
       machine = {
         species = "metal";
         arch = "x86-64";
