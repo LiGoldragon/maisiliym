@@ -289,7 +289,7 @@
       };
     };
 
-    asklepios = {
+    asklipios = {
       species = "hybrid";
       size = 1;
       trust = 3;
@@ -388,7 +388,7 @@
       zeus = 3;
       ouranos = 3;
       prometheus = 3;
-      asklepios = 3;
+      asklipios = 3;
       eibetik = 2;
       tiger = 3;
     };
