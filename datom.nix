@@ -289,6 +289,21 @@
       };
     };
 
+    asklepios = {
+      species = "hybrid";
+      size = 1;
+      trust = 3;
+      machine = {
+        species = "metal";
+        arch = "x86-64";
+        model = "all-x86-64";
+        cores = 1;
+      };
+      preCriomes = {
+        ssh = "AAAAC3NzaC1lZDI1NTE5AAAAIHEtxRF2wjSD1DzlYCW9BivOsz9X0P95msrbXvGATy/p";
+      };
+    };
+
     eibetik = {
       species = "center";
       size = 1;
@@ -373,6 +388,7 @@
       zeus = 3;
       ouranos = 3;
       prometheus = 3;
+      asklepios = 3;
       eibetik = 2;
       tiger = 3;
     };
