@@ -202,7 +202,7 @@
     };
 
     prometheus = {
-      species = "largeAI";
+      species = "largeAI-router";
       size = 3;
       trust = 3;
       machine = {
@@ -214,9 +214,9 @@
       nodeIp = "5::5/128";
       preCriomes = {
         yggdrasil = {
-          preCriome = "32e87dbbdc9d958d1ab536a2a56ac34f854dfc2c9f48fa0f3ff57d41ec0978a7";
-          address = "202:68bc:1221:1b13:5397:2a56:4aea:d4a9";
-          subnet = "302:68bc:1221:1b13";
+          preCriome = "de749c6fe90c14d5d843e5cb0eec4674e96b66d0b8b68866887c27a85d58cb7c9adf4a76f8229421981cdaaaf4d0177a57119eee5848499eaa9e0fdf107363cf";
+          address = "200:ca41:6b12:fba:d7bc:cfc6:4aaa:165f";
+          subnet = "300:ca41:6b12:fba";
         };
       };
       io = {
