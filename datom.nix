@@ -133,7 +133,6 @@
         model = "ThinkPadT14Intel";
         cores = 4;
       };
-      nodeIp = "5::6/128";
       linkLocalIps = [ ];
       io = {
         keyboard = "colemak";
@@ -154,7 +153,14 @@
         };
         swapDevices = [ ];
       };
-      preCriomes = { };
+      preCriomes = {
+        ssh = "AAAAC3NzaC1lZDI1NTE5AAAAIMAZxp1YpShbxSy1/Khu4wc57o+yWyuMh/80+dKHg6TW";
+        yggdrasil = {
+          preCriome = "f40458290d7a2d79efdbef4b5f046fb7f825626eda9d118e4f2b869c105f6ec4";
+          address = "200:17f7:4fad:e50b:a50c:2048:2169:41f7";
+          subnet = "300:17f7:4fad:e50b";
+        };
+      };
     };
 
     ouranos = {
