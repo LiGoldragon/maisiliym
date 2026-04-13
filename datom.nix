@@ -130,7 +130,7 @@
       machine = {
         species = "metal";
         arch = "x86-64";
-        model = "ThinkPadT14Intel";
+        model = "ThinkPadT14Gen2Intel";
         cores = 4;
       };
       linkLocalIps = [ ];
