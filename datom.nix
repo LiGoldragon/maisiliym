@@ -196,7 +196,7 @@
         swapDevices = [ ];
       };
       preCriomes = {
-        ssh = "AAAAC3NzaC1lZDI1NTE5AAAAIHEtxRF2wjSD1DzlYCW9BivOsz9X0P95msrbXvGATy/p";
+        ssh = "AAAAC3NzaC1lZDI1NTE5AAAAIP/v8LZFBXHMzflegvnHEgi6EyDn8P5i//iGjboVjtRr";
         nixPreCriome = "AAqjPi1kOaOWyZrwupTpHNL/7SYjYmaeDu1J+hNtVFA=";
         nixSigningPublicKey = "AAqjPi1kOaOWyZrwupTpHNL/7SYjYmaeDu1J+hNtVFA=";
         yggdrasil = {
