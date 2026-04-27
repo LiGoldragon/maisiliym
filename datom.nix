@@ -25,6 +25,7 @@
       species = "edgeTesting";
       size = 3;
       trust = 3;
+      online = false;
       machine = {
         species = "metal";
         arch = "x86-64";
@@ -64,6 +65,7 @@
       species = "hybrid";
       size = 3;
       trust = 3;
+      online = false;
       machine = {
         species = "metal";
         arch = "x86-64";
