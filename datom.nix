@@ -219,6 +219,9 @@
       };
       nodeIp = "5::5/128";
       preCriomes = {
+        ssh = "AAAAC3NzaC1lZDI1NTE5AAAAIAWX4CiSoep1+JuiYEpMzBj/H24eCYR+ZWaG3z2pg4Pk";
+        nixPreCriome = "vCjiTyT4+sVkjvASSKteq7RZ1/b8hploA7kliKnrpKk=";
+        nixSigningPublicKey = "vCjiTyT4+sVkjvASSKteq7RZ1/b8hploA7kliKnrpKk=";
         yggdrasil = {
           preCriome = "de749c6fe90c14d5d843e5cb0eec4674e96b66d0b8b68866887c27a85d58cb7c9adf4a76f8229421981cdaaaf4d0177a57119eee5848499eaa9e0fdf107363cf";
           address = "200:ca41:6b12:fba:d7bc:cfc6:4aaa:165f";
