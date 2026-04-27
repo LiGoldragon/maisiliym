@@ -217,6 +217,7 @@
         model = "GMKtec EVO-X2";
         cores = 8;
       };
+      nbOfBuildCores = 6;
       nodeIp = "5::5/128";
       preCriomes = {
         ssh = "AAAAC3NzaC1lZDI1NTE5AAAAIAWX4CiSoep1+JuiYEpMzBj/H24eCYR+ZWaG3z2pg4Pk";
